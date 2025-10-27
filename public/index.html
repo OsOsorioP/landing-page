@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PayCoin - Transforma Tu Experiencia de Pagos</title>
-    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/src/assets/img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="/src/styles.css">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
 </head>
 <script src="https://unpkg.com/feather-icons"></script>
 
 <body>
     <div class="container-header-hero">
+        <i class='bx bxs-hot'></i>
+        <i class='bxl bx-twitter-x'></i>
         <header class="container">
             <div class="logo">
                 <img src="" alt="Logo PayCoin">
@@ -43,7 +47,7 @@
             </nav>
             <a href="#" class="cta">Comenzar</a>
             <button class="btn-bars">
-                <i data-feather="align-right" stroke-width="2"></i>
+                <i class='bx  bx-menu'></i>
             </button>
         </header>
         <section class="container container-hero">
@@ -52,6 +56,41 @@
             <img src="" alt="Image Hero PayCoin">
         </section>
     </div>
+
+    <main>
+        <section class="container spacing section-features">
+            <h2 class="title">
+                <span>Banca Inteligente</span>
+                Hecha Simple
+            </h2>
+            <div class="container-cards">
+                <div class="container-card">
+                    <i class='bx  bx-credit-card-alt'></i>
+                    <h3>Dominio completo de tu tarjeta</h3>
+                    <p>
+                        Gestiona tu tarjeta al instante, ajusta límites de gasto y recibe notificaciones inmediatas de
+                        cada movimiento.
+                    </p>
+                </div>
+                <div class="container-card">
+                    <i class='bx  bxs-bar-chart-big'></i>
+                    <h3>Datos sobre tus finanzas</h3>
+                    <p>
+                        Sigue de cerca tus patrones de gasto con análisis y reportes completos que te apoyan en
+                        decisiones financieras más acertadas.
+                    </p>
+                </div>
+                <div class="container-card">
+                    <i class='bx  bx-currency-note'></i>
+                    <h3>Transferencias al instante</h3>
+                    <p>
+                        Envía y recibe dinero al momento con total seguridad, manteniendo siempre tus fondos a tu
+                        alcance.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script>
         feather.replace();
